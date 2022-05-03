@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Counter from "./components/counter";
+import GreetText from './components/greet-text';
+import BusCounter from './components/bus-station';
+import FunctionDes from "./components/function-destructure";
+import ClassDes from "./components/class-destructure";
+import FunctionClick from "./components/function-click";
+import ClassClick from './components/class-click';
+import EventBinding from './components/bind-events';
+import ParentComponent from './components/parent-component';
+import UserGreeting from './components/user-greeting';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <GreetText name="John"/>
+      <Counter/> */}
+      {/* <BusCounter/> */}
+      {/* <FunctionDes name="Tonny" heroName="Giddy"/> */}
+      {/* <ClassDes name="Giddy" heroName="Tonny"/> */}
+      {/* <FunctionClick/> */}
+      {/* <ClassClick/> */}
+      {/* <EventBinding/> */}
+      {/* <ParentComponent/> */}
+      <UserGreeting/>
     </div>
   );
 }

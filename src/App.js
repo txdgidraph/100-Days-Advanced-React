@@ -13,6 +13,7 @@ import UserGreeting from "./components/user-greeting";
 import NameList from "./components/name-list";
 import Person from "./components/person";
 import SimpleList from "./components/simple-list";
+import StyleSheet from "./components/StyleSheet";
 function App() {
   return (
     <div>
@@ -28,7 +29,8 @@ function App() {
       {/* <ParentComponent/> */}
       {/* <UserGreeting/> */}
       {/* <NameList/>      */}
-      <SimpleList />
+      {/* <SimpleList /> */}
+      <StyleSheet primary={true}/>
     </div>
   );
 }

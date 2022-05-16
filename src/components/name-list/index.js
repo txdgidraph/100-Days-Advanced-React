@@ -22,7 +22,7 @@ const NameList = () => {
       skill: "Python",
     },
   ];
-  const personList = persons.map( x => <Person x={x} key={x.id} />);
+  const personList = persons.map( p_details => <Person person_props={p_details} key={p_details.id} />);
   return (
     <div>
       <h1>LIST RENDERING IN REACT.JS</h1>

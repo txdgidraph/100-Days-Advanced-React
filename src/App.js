@@ -1,16 +1,18 @@
-import './App.css';
-import WelcomeText from './components/welcome-text';
+import "./App.css";
+import WelcomeText from "./components/welcome-text";
 import Counter from "./components/counter";
-import GreetText from './components/greet-text';
-import BusCounter from './components/bus-station';
+import GreetText from "./components/greet-text";
+import BusCounter from "./components/bus-station";
 import FunctionDes from "./components/function-destructure";
 import ClassDes from "./components/class-destructure";
 import FunctionClick from "./components/function-click";
-import ClassClick from './components/class-click';
-import EventBinding from './components/bind-events';
-import ParentComponent from './components/parent-component';
-import UserGreeting from './components/user-greeting';
-import NameList from './components/name-list';
+import ClassClick from "./components/class-click";
+import EventBinding from "./components/bind-events";
+import ParentComponent from "./components/parent-component";
+import UserGreeting from "./components/user-greeting";
+import NameList from "./components/name-list";
+import Person from "./components/person";
+import SimpleList from "./components/simple-list";
 function App() {
   return (
     <div>
@@ -25,7 +27,8 @@ function App() {
       {/* <EventBinding/> */}
       {/* <ParentComponent/> */}
       {/* <UserGreeting/> */}
-      {/* <NameList/> */}
+      {/* <NameList/>      */}
+      <SimpleList />
     </div>
   );
 }
